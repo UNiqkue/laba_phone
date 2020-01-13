@@ -1,0 +1,141 @@
+body{
+    background: url("fon.jpg")
+}
+
+.hello-list {
+    padding-right: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+    justify-content: space-between;
+	list-style: none;
+}
+
+*{
+	padding: 10;
+	margin: 10;
+}
+
+main{
+	padding: 0 20px;
+}
+
+.comment{
+    color: green;
+}
+
+.footer{ 
+    border: 1px solid green ;
+	background-color: lightgray;
+
+}
+
+.rub{
+    color: red;
+}
+
+.reg{
+	color: royalblue;
+	text-decoration: none;
+}
+
+.karta{
+  
+    margin: 0 auto;
+	padding: 10px;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+   
+    color: #333;
+    
+}
+
+.form{
+	text-align: left;
+    max-width: 446px;
+	margin: 0 auto;
+	
+}
+
+.formReg{
+		margin-left: 0; /* Отступ слева в браузере IE и Opera */
+		padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+input.inputMiddle{
+	background-color: #f3f3f3;
+	width: 440px;
+	height: 30px;
+	outline: none;
+	
+}
+
+input.submitButton{
+	width: 440px;
+	height: 30px;
+}
+
+
+
+label {
+    cursor: default;
+}
+
+.classForm{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	list-style-type: none;
+	font-size: 16px;
+	background-color: #f3f3f3;
+
+	border-width: 50%;
+	text-align: center;
+}
+
+.classFormRadio{
+	list-style-type: none;
+	padding-left: 35%;
+	background-color: #f3f3f3;
+}
+
+
+.submitButton{
+    border-radius: 10px; 
+}
+
+
+#positionBar{
+  
+   background: steelblue;
+   text-align: center;
+   
+   margin-top: 7px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border: solid 1px rgb(148, 253, 253);
+   width: 75%;
+   margin-bottom: 5px;
+}
+
+.vidos{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.circle{
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	border: 1px solid red;
+	float: right;
+}
+
+A:visited {
+    color: #ff004c; /* Цвет посещенных ссылок */
+}
+A:active {
+    color: #3400c2e5; /* Цвет активных ссылок */
+   }

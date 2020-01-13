@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>Магазин техники - Регистер</title>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<body background="fon.jpg"> 
+    <h1><center>Добавление денежного перевода</center></h1>
+    <header>
+        <h2 align="center">Update your credit or debit card.</h2>
+        <h3 align="center">Your monthly membership is billed on the first day of each billing period.</h3>
+    </header>
+    <main>
+        <div align="center">
+            <img src="karta.png" width="130" height="35">
+        </div>
+        <form class="karta" method="post">
+            <div class="form">
+                <ul class="formReg">
+                    <li class="classForm">
+                        <div class="classFormLiDiv">
+                            <label class="laceLabel">First Name</label>
+                            <input type="text" placeholder="Vaga" class="inputMiddle">
+                        </div>
+                    </li>
+                    <li class="classForm">
+                            <div class="classFormLiDiv">
+                                    <label class="laceLabel">Last Name</label>
+                                <input type="text" placeholder="Vinci" class="inputMiddle">
+                            </div>
+                    </li>                
+                    <li class="classForm">
+                            <div class="classFormLiDiv">
+                                    <label class="laceLabel">Email</label>
+                                <input type="email" placeholder="vagabund@gmail.com" class="inputMiddle">
+                            </div>
+                    </li>            
+                    <li class="classFormRadio">
+                            <b>Choose a card</b>
+                        <div >
+                            <input type="radio" name="answer" value="MasterCard"> MasterCard
+                        </div>
+                    </li>
+                    <li class="classFormRadio">
+                        <div>
+                            <input type="radio" name="answer" value="Visa"> Visa
+                        </div>
+                    </li>
+                    <li class="classFormRadio">
+                        <div>
+                            <input type="radio" name="answer" value="PayPall"> PayPall
+                        </div>
+                    </li>
+                    <li class="classForm">
+                        <div>
+                                <label class="laceLabel">Card Number</label>
+                            <input type="tel" maxlength="16" maxlength="19" class="inputMiddle" placeholder="0000 0000 0000 0000">
+                        </div>
+                    </li>
+                    <li class="classForm">
+                        <div>
+                            <label class="laceLabel">Experation Date</label>
+                            <input type="tel"  class="inputMiddle" placeholder="12/23">
+                        </div>
+                    </li>        
+                    <li class="classForm">
+                            <div>
+                                    <label class="laceLabel">How many?</label>
+                                    <input type="text" placeholder="$$$$$" class="inputMiddle">
+                            </div>                                              
+                        
+                    </li>
+                </ul>
+                  
+                <input type="submit" value="Подтвердить" class="submitButton">
+                
+            </div>
+        </form>
+       
+
+    </main>
+    
+</body>
+
+</html>
